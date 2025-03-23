@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+
+#login-container, #home-container {
+    margin-top: 100px;
+}
+
+#3d-container {
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+}
