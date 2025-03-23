@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Web App</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Secure 3D Web App</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <div id="register-container">
+        <h2>Register</h2>
+        <input type="text" id="reg-username" placeholder="Choose a username">
+        <input type="password" id="reg-password" placeholder="Choose a password">
+        <button onclick="register()">Register</button>
+    </div>
+
     <div id="login-container">
         <h2>Login</h2>
         <input type="text" id="username" placeholder="Enter your username">
+        <input type="password" id="password" placeholder="Enter your password">
         <button onclick="login()">Login</button>
     </div>
-
-    <div id="home-container" style="display: none;">
-        <h1>Welcome, <span id="user-name"></span>!</h1>
-        <button onclick="window.location.href='sculpt.html'">Go to 3D Sculpting</button>
-    </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
